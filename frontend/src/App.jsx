@@ -13,8 +13,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_URL = "http://localhost:8000";
-
+const API_URL = "https://predixion-ai-research-agent-api.onrender.com";
 function App() {
   const [question, setQuestion] = useState("");
   const [loading, setLoading] = useState(false);
